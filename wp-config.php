@@ -29,7 +29,9 @@ define( 'DB_USER', 'wp_portsidecom_user' );
 define( 'DB_PASSWORD', 'wp_portsidecom_pw' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+//define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost:/Applications/MAMP/tmp/mysql/mysql.sock' );
+//define('DB_HOST', '127.0.0.1:3306');
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
